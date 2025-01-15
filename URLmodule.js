@@ -12,3 +12,5 @@ console.log(myUrl.search); // Returns '?year=2017&month=february'
 // Get query parameters as an object
 const qdata = Object.fromEntries(myUrl.searchParams.entries());
 console.log(qdata.month); // Returns 'february'
+
+
